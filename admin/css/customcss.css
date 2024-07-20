@@ -1,0 +1,14 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+overflow-x:hidden;
+}
+#cardd .card-body a:hover{
+	text-decoration:none;
+}
+#cardd{
+	max-width:280px;
+}
+

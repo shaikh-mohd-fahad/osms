@@ -1,0 +1,99 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+overflow-x:hidden;
+}
+#header .navbar .navbar-brand{
+	font-size:30px;
+	padding-left:50px;
+}
+#header .navbar span{
+	color:white;
+}
+
+#header .navbar .navbar-nav a{
+	color:white;
+}
+#header .navbar .navbar-nav a:hover{
+	color:#cad7f9;
+}
+#header{
+	background-image:url(../image/m1.jpg);
+	background-repeat:no-repeat;
+	background-position:center center;
+	background-size:cover;
+	min-height:600px;
+	margin-top:0px;
+}
+#header #headerdetail h1, span{
+	color:#fff;
+}
+#headerdetail{
+	position:absolute;
+	top:150px;
+	left:90px;
+}
+#headerdetail span{
+	font-size:22px;
+	font-style:italic;
+}
+
+/* media query started below*/ 
+@media (max-width:768px){
+	#headerdetail{
+		position:absolute;
+		text-align:center;
+		top:50%;
+		left:50%;
+		transform:translate(-50%,-50%);
+	}
+	#headerdetail h1{
+		font-size:40px;
+	}
+	#headerdetail span{
+	font-size:20px;
+	}
+	#header .navbar #nclp ul{
+		text-align:center;
+	}
+	
+	#header .navbar .navbar-brand{
+		width:100%;
+		text-align:center;
+	}
+}
+@media (max-width:600px){
+	/* #headerdetail{
+		position:absolute;
+		text-align:center;
+		top:210px;
+		left:100px;
+	} */
+	#headerdetail h1{
+		font-size:35px;
+	}
+	#headerdetail span{
+	font-size:18px;
+}
+}
+@media (min-width:768px){
+#ftr .right{
+	float:right;
+}
+
+#ftr .left{
+	float:left;
+}
+}
+@media (max-width:768px){
+	#ftr{
+		text-align:center;
+	}
+	
+}
+@media (min-width:768px){
+#header .navbar .navbar-nav{
+	margin-left:50px;
+}}
